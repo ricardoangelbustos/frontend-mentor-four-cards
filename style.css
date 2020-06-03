@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #fafafa; */
+}
+.container{
+    width: 70%;
+    margin: 0px auto;
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-weight: 200;
+    font-size: 25px;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 25px;
+    color: #4f5264;
+}
+.title p{
+    font-weight: 400;
+    font-size: 11px;
+    color: #b1b1b3;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.boxes img{
+    width: 20%;
+}
+.supervisor{
+    background-color: #ffffff;
+    width: 25%;
+    height: 170px;
+    border-radius: 5px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    padding: 15px;
+    margin-right: 2%;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    transition: 500ms;
+}
+.supervisor:hover{
+    cursor: pointer;
+    border: 4px solid hsl(180, 62%, 55%);
+}
+.supervisor h3{
+    font-size: 14px;
+    color: #535261;
+}
+.supervisor span{
+    font-weight: 400;
+    font-size: 10px;
+    color: #adacb1;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teambuilder{
+    background-color: #ffffff;
+    width: 100%;
+    height: 170px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    padding: 15px;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    transition: 500ms;
+}
+.teambuilder:hover{
+    cursor: pointer;
+    border: 4px solid hsl(0, 78%, 62%);
+}
+.teambuilder h3{
+    font-size: 14px;
+    color: #535261;
+}
+.teambuilder span{
+    font-weight: 400;
+    font-size: 10px;
+    color: #adacb1;
+}
+.karma{
+    background-color: #ffffff;
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    padding: 15px;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    transition: 500ms;
+}
+.karma:hover{
+    cursor: pointer;
+    border: 4px solid hsl(34, 97%, 64%);
+}
+.karma h3{
+    font-size: 14px;
+    color: #535261;
+}
+.karma span{
+    font-weight: 400;
+    font-size: 10px;
+    color: #adacb1;
+}
+.calculator{
+    background-color: #ffffff;
+    width: 25%;
+    height: 170px;
+    border-radius: 5px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    padding: 15px;
+    margin-left: 2%;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    box-shadow: 5px 5px 15px 0px rgba(184,177,184,1);
+    transition: 500ms;
+}
+.calculator:hover{
+    cursor: pointer;
+    border: 4px solid hsl(212, 86%, 64%);
+}
+.calculator h3{
+    font-size: 14px;
+    color: #535261;
+}
+.calculator span{
+    font-weight: 400;
+    font-size: 10px;
+    color: #adacb1;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: royalblue;
+}
+footer a:hover{
+    border-bottom: 1px solid royalblue;
+}
+@media (max-width:1024px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width:768px){
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width:680px){
+    .container{
+        width: 100%;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .supervisor{
+        width: 50%;
+        margin-right: 0;
+    }
+    .teambuilder{
+        width: 50%;
+        margin-top: 15px;
+    }
+    .karma{
+        width: 50%;
+    }
+    .calculator{
+        width: 50%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
